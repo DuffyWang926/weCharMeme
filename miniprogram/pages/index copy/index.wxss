@@ -1,0 +1,39 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.indexHeader{
+  margin:20rpx;
+  position: relative;
+}
+.search{
+  border:2rpx solid #aaa;
+  height: 50rpx;
+  border-radius: 50rpx;
+  padding:0 20rpx;
+}
+.searchImg{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  right: 10rpx;
+  top: 4rpx;
+}
+.indexCon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.imgWrapper{
+  width: 150rpx;
+  height: 150rpx;
+  margin:20rpx 20rpx 0 0;
+}
+.conImg{
+  width: 100%;
+}
+

@@ -1,0 +1,14 @@
+<view class="indexPage">
+  <view class="indexHeader">
+    <image class="logoImg" src="../../images/logo.png"></image>
+    <view class="searchBox">
+      <input class="search" type="text" bindinput="inputTap"/>
+      <image class="searchImg" src="../../images/search.png" catchtap="searchTap"></image>
+    </view>
+  </view>
+  <view class="indexCon">
+    <view class="imgWrapper" wx:for="{{imgList}}" wx:key="index">
+      <image class="conImg" mode="scaleToFill" src="{{item.fileID}}" bindtap="imgTap" data-item="{{item}}"></image>
+    </view>
+  </view>
+</view>

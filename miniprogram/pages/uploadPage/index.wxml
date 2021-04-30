@@ -1,0 +1,25 @@
+<view class="uploadPage">
+  <view class="indexHeader">
+    <text>类型</text><input class="search" type="text" bindinput="typeTap"/>
+  </view>
+  <view class="indexHeader">
+    <text>名称</text><input class="search" type="text" bindinput="inputTap"/>
+  </view>
+  <view class="indexHeader">
+    <text>等级</text><input class="search" type="text" bindinput="levelTap"/>
+  </view>
+  <view class="uploadName">
+    文件名称：{{name}}
+  </view>
+  <view class="uploader">
+    <view class="uploader-text" bindtap="doUpload">
+      <text>上传图片</text>
+    </view>
+    <view class="uploader-container" wx:if="{{imgUrl}}">
+      <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
+    </view>
+  </view>
+  <view class="uploadData" bindtap="addData">
+    上传数据
+  </view>
+</view>

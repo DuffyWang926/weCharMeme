@@ -1,0 +1,24 @@
+.uploadPage {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.indexHeader{
+  margin:20rpx;
+  position: relative;
+}
+.search{
+  border:2rpx solid #aaa;
+  height: 50rpx;
+  border-radius: 50rpx;
+  padding:0 20rpx;
+}
+.uploadName{
+  padding:20rpx;
+}
+.uploadData{
+  padding: 20rpx;
+  display: inline-block;
+}
+
